@@ -1,0 +1,99 @@
+#box {
+  width: 200px;
+  height: 60px;
+  padding-top: 14px;
+  font-size: 19px;
+  color: #ffffff;
+  vertical-align: middle;
+  line-height: 8px;
+  text-align: center;
+  vertical-align: middle;}
+
+#sbox {
+  width: 80px;
+  height: 80px;
+  padding: 1px;
+  font-size: 19px;
+  color: #ffffff;
+  vertical-align: middle;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;}
+
+#lbox {
+  width: 240px;
+  height: 60px;
+  padding-top: 14px;
+  font-size: 19px;
+  color: #ffffff;
+  vertical-align: middle;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;}
+
+.ktch {
+    position: relative;
+    left: 975px;
+    bottom: 330px;}
+
+.car {
+  position: relative;
+  left: 1396px;
+  bottom: 528px;}
+
+.year {
+  position: relative;
+  left: 695px;
+  bottom: 775px;}
+
+.f1 {
+  position: relative;
+  left: 436px;
+  bottom: 520px;}
+
+.cond {
+  position: relative;
+  left: 1200px;
+  bottom: 888px;}
+
+.fbath {
+  position: relative;
+  left: 950px;
+  bottom: 848px;}
+
+.bed {
+  position: relative;
+  left: 430px;
+  bottom: 888px;}
+
+.f2 {
+  position: relative;
+  left: 675px;
+  bottom: 948px;}
+
+.lot {
+  position: relative;
+  left: 675px;
+  bottom: 585px;}
+
+.hbath {
+  position: relative;
+  left: 850px;
+  bottom: 870px;}  
+
+  #plot {
+    background-color: lightblue !important;
+}
+.main-svg {
+    background-color: transparent !important;
+}  
+
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    8px 8px 0 #000;  
+}

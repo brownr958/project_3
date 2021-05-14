@@ -7,7 +7,7 @@
   vertical-align: middle;
   line-height: 8px;
   text-align: center;
-  vertical-align: middle;}
+  vertical-align: middle}
 
 #sbox {
   width: 80px;
@@ -81,14 +81,11 @@
   left: 850px;
   bottom: 870px;}  
 
-  #plot {
-    background-color: lightblue !important;
-}
 .main-svg {
     background-color: transparent !important;
 }  
 
-.strokeme
+.shadow
 {
     color: white;
     text-shadow:
@@ -97,3 +94,8 @@
     -2px 2px 0 #000,
     8px 8px 0 #000;  
 }
+
+.submit {
+  position: relative;
+  left: 1396px;
+  bottom: 740px;}  

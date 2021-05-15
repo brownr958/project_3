@@ -22,35 +22,35 @@
       <svg width="1880" height="700">
         <image href="../static/HTMLHouse.png" x="160" y="0" width="1600" height="700"/>
       </svg>
-      <div id="box" class="ktch">
-        <p><b>Kitchens: <input name="ktch" style="width: 40px;"></b></p>
-      </div>
-      <div id="box" class="car">
-        <p><b><input name="car" style="width: 40px;">-Car Garage</b></p> 
-      </div>
       <div id="box" class="year" style="text-align: center;">
-        <p><b>Year Built: <input name="year" style="width: 60px;"></b></p>
-      </div>
-      <div id="lbox" class="f1">
-        <p><b>1st Floor SqFt: <input name="f1" style="width: 60px;"></b></p> 
+        <p><b>Year Built: <input name="year" style="width: 60px;" maxlength="4" required></b></p>
       </div>
       <div id="lbox" class="cond">
-        <p><b>Overall Condition: <input name="cond" style="width: 40px;"> (Scale 1-10)</b></p>
-      </div>
-      <div id="box" class="fbath">
-        <p><b>Full Baths: <input name="fbath" style="width: 40px;"></b></p>  
+        <p><b>Overall Condition: <input name="cond" style="width: 40px;" maxlength="2" required> (Scale 1-10)</b></p>
       </div>
       <div id="box" class="bed">
-        <p><b>Bedrooms: <input name="bed" style="width: 40px;"></b></p> 
+        <p><b>Bedrooms: <input name="bed" style="width: 40px;" maxlength="1" required></b></p> 
       </div>
       <div id="lbox" class="f2">
-        <p><b>2nd Floor SqFt: <input name="f2" style="width: 60px;"></b></p> 
+        <p><b>2nd Floor SqFt: <input name="f2" style="width: 60px;" maxlength="4" required></b></p> 
       </div>
-      <div id="lbox" class="lot">
-        <p><b>Lot Area SqFt: <input name="lot" style="width: 80px;"></b></p>  
+      <div id="box" class="fbath">
+        <p><b>Full Baths: <input name="fbath" style="width: 40px;" maxlength="1" required></b></p>  
+      </div>
+      <div id="box" class="car">
+        <p><b><input name="car" style="width: 40px;" maxlength="1" required>-Car Garage</b></p> 
+      </div>
+      <div id="lbox" class="f1">
+        <p><b>1st Floor SqFt: <input name="f1" style="width: 60px;" maxlength="4" required></b></p> 
       </div>
       <div id="sbox" class="hbath">
-        <p><b>Half Baths:<input name="hbath" style="width: 40px;"></b></p>
+        <p><b>Half Baths:<input name="hbath" style="width: 40px;" maxlength="1" required></b></p>
+      </div>
+      <div id="box" class="ktch">
+        <p><b>Kitchens: <input name="ktch" style="width: 40px;" maxlength="1" required></b></p>
+      </div>
+      <div id="lbox" class="lot">
+        <p><b>Lot Area SqFt: <input name="lot" style="width: 80px;" maxlength="6" required></b></p>  
       </div>
       <div id="box" class="submit">
         <button type="button" class="btn btn-info btn-lg col-10" style="border: 6px solid rgb(98, 231, 255);">Calculate</button>

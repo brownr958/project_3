@@ -12,8 +12,8 @@
         // body: '_d3-fetch_ is it',
         // userId: 1,
         // friends: [2,3,4]
-        positions['cf'] = d3.select(".cf").text()
-      }),
+        
+      }), 
       headers: {
         "Content-type": "application/json; charset=UTF-8"
       }
@@ -26,3 +26,17 @@
       .attr("font-size", 16)
       .attr("font-family", "monospace")
     });
+
+    positions['cf'] = d3.select('.cf').text()
+    positions['ktch'] = d3.select('.ktch').text()
+    positions['car'] = d3.select('.car').text()
+    positions['year'] = d3.select('.year').text()
+    positions['f1'] = d3.select('.f1').text()
+    positions['cond'] = d3.select('.cond').text()
+    positions['fbath'] = d3.select('.fbath').text()
+    positions['bed'] = d3.select('bed').text()
+    positions['f2'] = d3.select('.f2').text()
+    positions['lot'] = d3.select('.lot').text()
+    positions['hbath'] = d3.select('.hbath').text()
+
+    filter_list = Object.values(positions).filter(item => item.length > 1)

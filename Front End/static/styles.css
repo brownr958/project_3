@@ -57,34 +57,50 @@
   left: 950px;
   bottom: 795px;}
 
+.garea {
+  position: relative;
+  left: 1376px;
+  bottom: 855px;}
+
 .car {
   position: relative;
   left: 1396px;
-  bottom: 768px;}
+  bottom: 828px;}
 
 .f1 {
   position: relative;
   left: 436px;
-  bottom: 700px;}
+  bottom: 760px;}
 
 .hbath {
   position: relative;
   left: 850px;
-  bottom: 760px;}
+  bottom: 820px;}
 
 .ktch {
   position: relative;
   left: 975px;
-  bottom: 840px;}
+  bottom: 900px;}
 
 .lot {
   position: relative;
   left: 675px;
-  bottom: 665px;}
+  bottom: 725px;}
+
+.submit {
+  position: relative;
+  left: 1396px;
+  bottom: 915px;} 
+
+.reset {
+  position: relative;
+  left: 1396px;
+  bottom: 860px;} 
 
 .main-svg {
     background-color: transparent !important;
 }  
+
 
 .shadow
 {
@@ -94,9 +110,4 @@
     2px -2px 0 #000,
     -2px 2px 0 #000,
     8px 8px 0 #000;  
-}
-
-.submit {
-  position: relative;
-  left: 1396px;
-  bottom: 750px;}  
+} 

@@ -19,6 +19,7 @@
       <p>*Enter whole numbers only (no commas or decimals). Enter zero for 2nd Floor SqFt and Garage if they do not apply.</p>
     </div>
     <div style="max-height: 700px;">
+      <form method="POST" action="/" role="form" , name="petform">
       <svg width="1880" height="700">
         <image href="../static/HTMLHouse.png" x="160" y="0" width="1600" height="700"/>
       </svg>
@@ -37,6 +38,9 @@
       <div id="box" class="fbath">
         <p><b>Full Baths: <input name="fbath" style="width: 40px; text-align: center;" maxlength="1" required></b></p>  
       </div>
+      <div id="lbox" class="garea">
+        <p><b>Garage Area: <input id="garea" name="garea" style="width: 60px;" maxlength="4" required></b></p>
+      </div>
       <div id="box" class="car">
         <p><b><input name="car" style="width: 40px; text-align: center;" maxlength="1" required>-Car Garage</b></p> 
       </div>
@@ -53,11 +57,15 @@
         <p><b>Lot Area SqFt: <input name="lot" style="width: 80px; text-align: center;" maxlength="6" required></b></p>  
       </div>
       <div id="box" class="submit">
-        <button type="button" class="btn btn-info btn-lg col-10" style="border: 6px solid rgb(98, 231, 255);">Calculate</button>
-      </div>      
+        <input type="submit" value="Calculate" class="btn btn-info btn-lg col-10" style="border: 6px solid rgb(98, 231, 255);">
+      </div>        
+      <div id="box" class="reset">
+        <a class="btn btn-danger" id="resetButton" role="button" style="border: 6px solid rgb(255, 74, 74);">Reset</a>
+      </div>
+      </form>      
     </div>
     <div style="text-align: center; padding-top: 20px; color: rgb(153, 255, 122)">
-      <h3>Approximate Cost of House: $</h3>
+      <h3>Approximate Cost of House: ${{house_cost}}</h3>
     </div>
   <script src="app.js"></script>
   </body>
